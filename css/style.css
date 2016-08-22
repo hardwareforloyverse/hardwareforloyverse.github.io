@@ -49,6 +49,15 @@ p{
 	line-height:24px;
 	margin:0;
 }
+.product {
+	background-color: rgba(75, 175, 79, 0.05);
+}
+
+.other_background{
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} 
+
 .many{
 	height: 1000px;
 	width:100%;
@@ -990,12 +999,13 @@ figure.effect-bubba:hover p,figure.effect-bubba:hover h2 {
 /*--about-end--*/
 /*--product-starts--*/
 .product-left {
-    text-align: center;
+    text-align: right;
 
 }
 .product-main {
-    padding: 1em 0px 2.7em 0px;
-    border:1px solid #ECEAEA;
+    padding: 1em 0px 1em 0px;
+    border-top:1px solid #ECEAEA;
+    border-bottom:1px solid #ECEAEA;
 }
 .product-bottom h3 {
     font-size: 16px;
@@ -1107,9 +1117,9 @@ a.mask {
 	display:block;
 }
 .srch {
-    display: none;
+    display: block;
     position: absolute;
-    left: 16px;
+    right: 0px;
     top: 5px;  
 }
 .srch span{    
@@ -3438,6 +3448,7 @@ figure.effect-bubba p {
 }
 .srch {
     left: 9px;
+    top: 1px;
 }
 .infor-left {
     width: 15%;
