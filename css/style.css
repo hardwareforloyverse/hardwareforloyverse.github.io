@@ -115,15 +115,14 @@ p{
 	color: #fff;
 }
 .download-app-content{
-	display: inline;
-	float: left;
+	display: inline-block;
 	width: 100%;
 	text-align: center;
 }
 .single-download {
 	display: inline-block;
 	padding: 18px 25px;
-	width: 70%;
+	width: 90%;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
@@ -154,6 +153,8 @@ p{
 .download-content span{
 	color: #fff;
 	font-size: 16px;
+	display: inline-block;
+    text-align: center;
 }
 .res-nav_click {
 	line-height:38px;
@@ -4355,3 +4356,88 @@ a:hover, a:focus{
 	text-decoration: none;
 }
 
+.hero h1 { font-size: 36px; font-weight: 100; color: #f07f31; margin-top: 5%}
+.hero p { 
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+.hero {
+	background: url('../img/hero.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding:0;
+	margin: 0 -15px;
+	width: auto;
+    height: 400px;
+}
+/* DOWNLOAD */
+#download-app {
+  background-attachment: fixed !important;
+  background-image: url("../img/download-bg.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+.download-overlay {
+  background: rgba(15, 22, 30, 0.8) none repeat scroll 0 0;
+  color: #ffffff;
+  display: inline;
+  float: left;
+  padding: 30px 0;
+  width: 100%;
+}
+#download-app .title,
+#download-app .title-area p{
+	color: #fff;
+}
+
+.download-app-content{
+	display: inline-block;
+	width: 100%;	
+	margin: 0 auto;
+	text-align: center;
+}
+.single-download {
+	display: inline-block;
+	padding: 18px 0px;
+	width: 100%;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	text-align: right;
+}
+.download-icon{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+}
+.download-icon i {
+  font-size: 40px;
+  margin-top: 5px;
+}
+.download-content {
+  display: inline-block;
+  text-align: center;
+  margin-left: 5px;
+  margin: 15px;
+}
+.download-content p {
+	color: #f8f8f8;
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+.download-content span{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.download-content p:hover, .download-content span:hover, .download-icon:hover, .single-download:hover{
+color: #f07f31;
+}
